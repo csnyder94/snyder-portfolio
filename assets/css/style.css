@@ -1,13 +1,68 @@
 *
-.hero {
-    height: 400px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/snyder-portfolio-pic.png");
-    background-size: cover;
-    background-position: center;
-    
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --dark: rgb(26, 25, 25);
+    --light: rgb(152, 205, 248);
+    --main: rgba(234, 236, 238, 0.603);
 }
 
- /* BELOW HERE IS A TEST */
 
+body {
+    background-color: var(--light);
+    font-family: 'Tahoma', 'Verdana', sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 20px 20px;
+    background-color: var(--dark);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+}
+
+header h1 {
+    color: var(--dark);
+    font-size: 25px;
+    padding: 10px 10px 10px 100px;
+    align-items: left;
+    background-color:var(--light);
+}
+
+
+nav ul {
+    display: flex; 
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 1100px;
+}
+
+nav ul li {
+    margin: 20px;
+} 
+
+nav ul li a {
+   text-decoration: underline;
+    color: var(--main);
+}
+
+.picture {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/snyder-test-3.jpg");
+    background-size: 100%;
+    background-position-y: 30%;
+    }
+
+.picture-subtitle {
+    color: var(--dark);
+    text-align:end;
+    padding-right: 25px;
+    padding-top: 450px;  
+} 

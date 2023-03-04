@@ -1,0 +1,13 @@
+*
+.hero {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/snyder-portfolio-pic.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+ /* BELOW HERE IS A TEST */
+

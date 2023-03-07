@@ -16,7 +16,6 @@ body {
     font-family: 'Tahoma', 'Verdana', sans-serif;
     display:flex;
     flex-direction: column;
-    width: 100vw;
 }
 /* Sets Main Header that contains nav bar */
 header { 
@@ -71,10 +70,9 @@ nav ul li a {
 .sub-headers {
     flex: 10%;
     font-size: 30px;
-    padding-left: 15px;
+    padding: 0px 5px 0x 15px;
     border-right: 4px solid var(--dark);
     text-align: left;
-    padding-right: 5px;
 }
 /* Fixes Alignment Between Sub-Headers and Content */
 .content div {
@@ -86,8 +84,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     justify-items: flex-end;
-    padding: 30px 40px 30px;
-    padding-left: 15px;
+    padding: 30px 40px 30px 15px;
 }
 
 .about-me {
@@ -118,10 +115,7 @@ nav ul li a {
      background-color: var(--dark);
      text-decoration: none;
      color: var(--light);
-     padding-right: 20px;
-     padding-top: 10px;
-     padding-bottom: 10px;
-     padding-left: 10px;
+     padding:10px 20px 10px 10px;
 }
 /* Sets First Grid Item as Largest */
  .box-1 {
@@ -160,6 +154,10 @@ nav ul li a {
      border-width: thick;     
 }
 
+a:hover {
+    opacity: 0.5;
+}
+
 .contact {
     display: flex;
     padding: 5px;
@@ -188,41 +186,26 @@ a {
 }
 
 .resume {
-        padding-left: 20px;
+    padding-left: 20px;
 }
-
-/*Media Query */
-/*
-@media screen and (max-width: 768px)  {
+/* Media Query */
+@media screen and (max-width: 992px) {
+    .content {
+      width: 50%;
+    }
+    /* Change the header color */
     header {
-        background-color: red;}
-        *{ max-width: 768px ;
-    
-    
-}}
-
-  /*@media screen and (max-width: 480px) {
-    .work-boxes{
-        height: 50vh;
-        justify-content: center;
-    }
-    .resume {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .resume div {
-        padding: 5px 10px;
-        margin: 5px 5px 2px 5px;
-        font-weight: bolder;
-    }
-
-    .resume div:hover {
-        font-size: 18px;
-    } 
-
-    header h1 {
-        box-shadow: none;
+      background:red;
     }
 }
- */ 
+/* Cards are stacked on top of each other at 768px or smaller */
+  @media screen and (max-width: 768px) {
+    .content {
+      width: 100%;
+    }
+    /* Change the header color */
+    header {
+      background: yellow;
+    }
+}
+  

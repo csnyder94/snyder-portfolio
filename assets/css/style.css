@@ -99,7 +99,7 @@ nav ul li a {
     flex: 80%;
     grid-gap: 10px;
 }
-  
+/* Creates styling for work section */ 
  .work {
      width: 100%;
      height: 100%;
@@ -153,11 +153,11 @@ nav ul li a {
      border:solid var(--dark);
      border-width: thick;     
 }
-
+/* Sets Hover Opacity when hovering over application images */
 a:hover {
     opacity: 0.5;
 }
-
+/* Styling for Contact Section */
 .contact {
     display: flex;
     padding: 5px;
@@ -190,22 +190,43 @@ a {
 }
 /* Media Query */
 @media screen and (max-width: 992px) {
-    .content {
-      width: 50%;
-    }
-    /* Change the header color */
-    header {
-      background:red;
-    }
+.content {
+    display: block;
 }
-/* Cards are stacked on top of each other at 768px or smaller */
-  @media screen and (max-width: 768px) {
-    .content {
-      width: 100%;
-    }
-    /* Change the header color */
-    header {
-      background: yellow;
-    }
+/* Fixes Sub-Header Size and Flex as Screen Shrinks */
+.sub-headers {
+    display:flex;
+    justify-content: center;
+    border-right: none;
+    border-bottom: 4px solid var(--dark);
+    margin-bottom: 5px
 }
-  
+
+.content {
+    padding: 10px;
+}
+
+.content div {
+    padding-left: 0px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+}
+/* Media Query for Phone Size */  
+@media screen and (max-width: 768px) {
+.content {
+    width: 100%;
+}
+    
+.work-boxes {
+        grid-template-columns: none;
+}
+/* Resets Box-1 From Largest Application During Phone Size View */
+.box-1 {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+}
+}

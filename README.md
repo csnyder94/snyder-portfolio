@@ -1,4 +1,4 @@
-# Horiseon Marketing Webpage
+# Christopher Snyder Portfolio Webpage
 
 Add Finished Site
 
@@ -8,7 +8,7 @@ This project was to create a professional portfolio.
 
 ## Expected Webview
 
-Add Image
+![Snyder Portfolio Fullscreen resize 2](https://user-images.githubusercontent.com/124528804/223462077-9a3058a8-a679-44da-8a94-c940798609e0.png)
 
 ## Installation
 

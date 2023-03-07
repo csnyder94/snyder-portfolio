@@ -16,6 +16,7 @@ body {
     font-family: 'Tahoma', 'Verdana', sans-serif;
     display:flex;
     flex-direction: column;
+    width: 100vw;
 }
 /* Sets Main Header that contains nav bar */
 header { 
@@ -46,7 +47,6 @@ nav ul li {
 nav ul li a {
    text-decoration: underline;
     color: var(--main);
-
 }
 /* Sets Recent Picutre of Me Under Header */
 .picture { 
@@ -75,12 +75,13 @@ nav ul li a {
     border-right: 4px solid var(--dark);
     text-align: left;
     padding-right: 5px;
-   }
+}
 /* Fixes Alignment Between Sub-Headers and Content */
 .content div {
     flex:80%;
     padding-left: 20px;
 }
+
 .content {
     display: flex;
     justify-content: center;
@@ -92,14 +93,13 @@ nav ul li a {
 .about-me {
     justify-content: center;
     padding-left: 20px;
-    }
+}
 /* Creates Grid For Future Deployed Projects */
 .work-boxes {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     height: 80vh;
     flex: 80%;
-    padding: 0 30px;
     grid-gap: 10px;
 }
   
@@ -137,6 +137,7 @@ nav ul li a {
      background-image: url("../images/led-wall.jpg");
      border:solid var(--dark);
      border-width: thick;
+     background-position-y: 13%;
 }
  /* Moves Picture on Y-Axis for Clarity */
  .box-3 {
@@ -174,6 +175,14 @@ nav ul li a {
     text-decoration: underline;
 } 
 
+.resume a {
+    text-decoration: none;
+    color: var(--dark);
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: underline;
+} 
+
 a {
     justify-content: space-between;
 }
@@ -181,3 +190,39 @@ a {
 .resume {
         padding-left: 20px;
 }
+
+/*Media Query */
+/*
+@media screen and (max-width: 768px)  {
+    header {
+        background-color: red;}
+        *{ max-width: 768px ;
+    
+    
+}}
+
+  /*@media screen and (max-width: 480px) {
+    .work-boxes{
+        height: 50vh;
+        justify-content: center;
+    }
+    .resume {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .resume div {
+        padding: 5px 10px;
+        margin: 5px 5px 2px 5px;
+        font-weight: bolder;
+    }
+
+    .resume div:hover {
+        font-size: 18px;
+    } 
+
+    header h1 {
+        box-shadow: none;
+    }
+}
+ */ 

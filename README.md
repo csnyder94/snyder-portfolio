@@ -20,7 +20,7 @@ This website should be viewed in a webpage browser.  If inside Google Chrome, de
 
 ## Credits
 
-This project was a collaboration between fellow classmates: Matthew Lombard and Sarah Miller.  Help was given by TA: Sasha Peters.
+This project was a collaboration between fellow classmates: Matthew Lombard and Sarah Miller.  Help was given by TA: Sasha Peters // Tutor: Juno Nguyen.
 
 ## License
 

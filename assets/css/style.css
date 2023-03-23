@@ -119,10 +119,10 @@ nav ul li a {
 }
 /* Sets First Grid Item as Largest */
  .box-1 {
-     background-image: url("../images/surf-report.jpeg");
+     background-image: url("../images/Deployed\ Screenshot.png");
      grid-column: 1 / span 2;
-     grid-row: 1 / span 3;
-     background-position-y: 65%;
+     grid-row: 1 / span 4;
+     background-position-y: 20%;
      border:solid var(--dark);
      border-width: thick;
 }

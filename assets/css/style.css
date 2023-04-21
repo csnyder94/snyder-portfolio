@@ -119,16 +119,16 @@ nav ul li a {
 }
 /* Sets First Grid Item as Largest */
  .box-1 {
-     background-image: url("../images/Deployed\ Screenshot.png");
+     background-image: url("../images/simultaneous-searches2.png");
      grid-column: 1 / span 2;
      grid-row: 1 / span 4;
-     background-position-y: 20%;
+     background-position-y: 5%;
      border:solid var(--dark);
      border-width: thick;
 }
  
  .box-2 {
-     background-image: url("../images/led-wall.jpg");
+     background-image: url("../images/blood-donation.png");
      border:solid var(--dark);
      border-width: thick;
      background-position-y: 13%;

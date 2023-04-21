@@ -8,7 +8,7 @@ This project was to create a professional portfolio.
 
 ## Expected Webview
 
-![Snyder Portfolio Fullscreen resize 2](https://user-images.githubusercontent.com/124528804/223462077-9a3058a8-a679-44da-8a94-c940798609e0.png)
+![csnyder94 github io_snyder-portfolio_](https://user-images.githubusercontent.com/124528804/233651818-42634abe-b156-45d6-af10-3bcbe2b56c3e.jpg)
 
 ## Installation
 
